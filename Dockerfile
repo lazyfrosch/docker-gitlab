@@ -1,5 +1,5 @@
-FROM sameersbn/ubuntu:14.04.20150323
-MAINTAINER sameer@damagehead.com
+FROM lazyfrosch/ubuntu:trusty
+MAINTAINER Markus Frosch <markus@lazyfrosch.de>
 
 RUN apt-key adv --keyserver keyserver.ubuntu.com --recv E1DF1F24 \
  && echo "deb http://ppa.launchpad.net/git-core/ppa/ubuntu trusty main" >> /etc/apt/sources.list \
